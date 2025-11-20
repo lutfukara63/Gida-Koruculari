@@ -24,6 +24,36 @@ Bu repo, ambalaj üzerindeki içerik/yazıları OCR ile okuyup, içerik listesin
    uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
    ```
 
+## Geliştirme (Development)
+1. Geliştirme bağımlılıklarını yükleyin:
+
+```bash
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+pip install -r backend/requirements.txt
+```
+
+2. Pre-commit kurun (ilk defa):
+
+```bash
+pre-commit install
+```
+
+3. Kod formatlama/lint kontrollerini yerel çalıştırmak için:
+
+```bash
+black .
+isort -rc .
+flake8
+```
+
+4. Backend çalıştırma:
+
+```bash
+uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
+```
+
 ## Branch & PR Politikası
 - `main`: üretim hazır (korumalı)
 - `develop`: geliştirme entegrasyonu
