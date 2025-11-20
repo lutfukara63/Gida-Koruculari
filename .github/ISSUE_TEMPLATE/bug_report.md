@@ -1,28 +1,27 @@
 ---
 name: Bug report
-about: "Bir hata bildirimi oluşturun"
+about: Hataları bildirirken kullanın
+title: "[bug] Kısa açıklama"
+labels: bug
+assignees: ''
+
 ---
 
-**Kısa açıklama**
-
-(Ne oldu? Beklenen davranış neydi?)
-
-**Tekrarı için adımlar**
-
-1. 
-2. 
-3. 
+**Adımlar (Repro)**
+1. ...
+2. ...
+3. Hata oluştu
 
 **Beklenen davranış**
+Kısa olarak beklenen çıktı nedir?
 
 **Gerçekleşen davranış**
+Gerçekleşen çıktı nedir? Hata mesajları ekleyin.
 
 **Çevre**
+- OS:
+- Python sürümü:
+- Backend/mobil versiyon:
 
-- İşletim sistemi: 
-- Python sürümü: 
-- Paketler/versiyonlar: 
-
-**Loglar / Hata mesajı**
-
-(Var ise yapıştırın veya dosya ekleyin)
+**Ekran görüntüleri / Loglar**
+(Ekleyin)

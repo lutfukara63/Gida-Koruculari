@@ -1,16 +1,17 @@
-## Açıklama
+### Değişiklik Özeti
+Kısa özet:
 
-(Lütfen yaptığınız değişikliği kısa ve öz açıklayın.)
+### İlgili Issue
+- Fixes #<issue-num> veya Related to #<issue-num>
 
-## Tür
-- [ ] Düzeltme (bug fix)
-- [ ] Yeni özellik (feature)
-- [ ] Dokümantasyon
+### Yapılanlar
+- [ ] Birim test eklendi/güncellendi
+- [ ] Kod formatlandı (black/isort)
+- [ ] Dokümantasyon güncellendi (README/docs)
 
-## Nasıl test edildı?
+### Test Adımları
+1. ...
+2. ...
 
-(Değişiklikleri test etmek için adımlar)
-
-## İlgili issue
-
-(Var ise issue numarası)
+### Reviewer Notları
+Özellikle dikkat edilmesi gereken noktalar.

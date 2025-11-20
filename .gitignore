@@ -1,17 +1,34 @@
 # Python
 __pycache__/
 *.py[cod]
-*.so
 *.egg-info/
-.eggs/
-.pytest_cache/
+dist/
+build/
 .env
 .venv/
 venv/
-ENV/
+.Python
 
-# OS
+# IDEs
+.vscode/
+.idea/
+
+# macOS
 .DS_Store
 
-# VSCode
-.vscode/
+# Data & models
+dataset/
+*.h5
+*.ckpt
+checkpoints/
+models/
+
+# Logs
+*.log
+
+# Node / Flutter
+node_modules/
+pubspec.lock
+
+# Docker
+docker-compose.override.yml

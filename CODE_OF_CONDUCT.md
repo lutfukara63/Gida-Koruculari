@@ -1,5 +1,13 @@
-# Davranış Kuralları
+# Davranış Kuralları (Code of Conduct)
 
-Bu proje için temel davranış kuralları uygulanır. Tüm katılımcılardan saygılı, kapsayıcı ve yardımsever olmaları beklenir.
+Bu proje açık ve saygılı bir ortam sağlamayı hedefler. Katılımcıların tüm etkileşimlerinde saygılı olmaları beklenir.
 
-Daha ayrıntılı kurallar için Contributor Covenant (https://www.contributor-covenant.org/) önerilir.
+## Temel İlkeler
+- Kişisel saldırı veya aşağılayıcı dil yok.
+- Irk, cinsiyet, din, cinsel yönelim, engellilik vb. ayrımcılık yok.
+- Yapıcı eleştiri teşvik edilir; kırıcı olmaktan kaçının.
+
+## İhlal bildirimi
+Proje yöneticilerine veya takım liderine özel mesajla bildirin. Bildirimler gizli tutulur.
+
+Bu kuralların detayları ve yaptırımlar proje sahipleri tarafından yönetilir.
