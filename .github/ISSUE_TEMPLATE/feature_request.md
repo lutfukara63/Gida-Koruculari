@@ -1,33 +1,33 @@
-name: Feature request
-about: "Yeni bir özellik önerisi"
+name: Feature request  
+about: "New feature suggestion"  
 
-**Özellik özeti**
+**Feature Summary**  
 
-(Kısa ve öz açıklama)
+(Brief and concise description)  
 
-**Neden bu özellik gerekli?**
+**Why is this feature necessary?**  
 
-(Bu özellik hangi sorunu çözer?)
+(What problem does this feature solve?)  
 
-**Örnek kullanım / Mockup**
+**Example Usage / Mockup**  
 
-(Eğer uygunsa örnek ekran görüntüleri veya kullanım senaryosu ekleyin)
----
-name: Feature request
-about: Yeni özellik talepleri
-title: "[feature] Kısa açıklama"
-labels: enhancement
-assignees: ''
----
+(If applicable, include example screenshots or use cases)  
+---  
+name: Feature request  
+about: Feature requests  
+title: "[feature] Short description"  
+labels: enhancement  
+assignees: ''  
+---  
 
-**Özet**
-Kısa açıklama.
+**Summary**  
+Brief description.  
 
-**Neden gerekli**
-Kullanıcı/sistem için faydası nedir?
+**Why is it necessary**  
+What are the benefits for the user/system?  
 
-**Önerilen çözüm**
-Kısa yaklaşım/alternatifler.
+**Proposed Solution**  
+Short approach/alternatives.  
 
-**Notlar**
-İlgili dosyalar/senaryolar...
+**Notes**  
+Relevant files/scenarios...
