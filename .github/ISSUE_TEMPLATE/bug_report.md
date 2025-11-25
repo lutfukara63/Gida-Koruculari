@@ -1,27 +1,27 @@
 ---
-name: Bug report
-about: Hataları bildirirken kullanın
-title: "[bug] Kısa açıklama"
-labels: bug
-assignees: ''
+name: Bug report  
+about: Use this template to report bugs  
+title: "[bug] Short description"  
+labels: bug  
+assignees: ''  
 
 ---
 
-**Adımlar (Repro)**
-1. ...
-2. ...
-3. Hata oluştu
+**Steps to Reproduce**  
+1. ...  
+2. ...  
+3. Error occurs  
 
-**Beklenen davranış**
-Kısa olarak beklenen çıktı nedir?
+**Expected Behavior**  
+What is the expected output?  
 
-**Gerçekleşen davranış**
-Gerçekleşen çıktı nedir? Hata mesajları ekleyin.
+**Actual Behavior**  
+What is the actual output? Include error messages if applicable.  
 
-**Çevre**
-- OS:
-- Python sürümü:
-- Backend/mobil versiyon:
+**Environment**  
+- OS:  
+- Python version:  
+- Backend/mobile version:  
 
-**Ekran görüntüleri / Loglar**
-(Ekleyin)
+**Screenshots / Logs**  
+(Add them here)  
