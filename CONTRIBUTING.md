@@ -1,41 +1,41 @@
-# Katkıda Bulunma Rehberi
+# Contribution Guide
 
-Teşekkürler — projeye katkıda bulunmak istiyorsunuz! Aşağıdaki adımlar ekip içindeki standartları korumak için hazırlanmıştır.
+Thank you for wanting to contribute to the project! The steps below are prepared to maintain standards within the team.
 
-1. Issue açma
-	- Hata/özellik için uygun template kullanın.
-	- Title kısa ve açıklayıcı olsun.
-	- Tek bir amaca odaklı issue açın.
+1. Opening an Issue
+    - Use the appropriate template for bug/feature.
+    - Keep the title short and descriptive.
+    - Open issues that focus on a single goal.
 
-2. Branch ismi
-	- `feature/<kısa-açıklama>`
-	- `fix/<kısa-açıklama>`
-	- `chore/<kısa-açıklama>`
+2. Branch Naming
+    - `feature/<short-description>`
+    - `fix/<short-description>`
+    - `chore/<short-description>`
 
-3. Kodlama standartları
-	- Python: Black + isort
-	- Linting: flake8 (opsiyonel CI'de)
-	- Test ekleyin: pytest kullanın; kritik mantık için unit test şart.
+3. Coding Standards
+    - Python: Black + isort
+    - Linting: flake8 (optional, used in CI)
+    - Add tests: Use pytest; unit tests are mandatory for critical logic.
 
-4. Commit mesajları
-	- Kısa ve açıklayıcı olun. Örnek: "feature: add ingredient parser for parentheses"
-	- Tek PR içinde birden fazla konseptten kaçının.
+4. Commit Messages
+    - Be short and descriptive. Example: "feature: add ingredient parser for parentheses"
+    - Avoid multiple concepts in a single PR.
 
 5. Pull Request
-	- İlgili issue numarasını bağlayın (ör. Fixes #12).
-	- Değişikliklerin kısa özeti ve test adımları ekleyin.
-	- PR açıklamasına reviewer önerileri yazın.
+    - Link the relevant issue number (e.g., Fixes #12).
+    - Add a brief summary of changes and the testing steps.
+    - Write reviewer suggestions in the PR description.
 
-6. Kod sahibi ve review
-	- `CODEOWNERS` dosyasına göre review atanır.
-	- En az 1 onay gerekir; kritik değişikliklerde 2 onay istenebilir.
+6. Code Ownership and Review
+    - Review is assigned according to the `CODEOWNERS` file.
+    - At least 1 approval is required; 2 approvals may be needed for critical changes.
 
-7. Veri ve modeller
-	- Ham veri repoya eklenmez. Küçük örnek veriler `dataset/sample/` içinde olabilir.
-	- Model checkpoint'leri harici depolarda saklanmalı; repo'ya büyük dosya pushlanmamalı.
+7. Data and Models
+    - Raw data is not added to the repository. Small sample data can be inside `dataset/sample/`.
+    - Model checkpoints must be stored externally; do not push large files to the repository.
 
-8. Güvenlik
-	- API anahtarlarını veya gizli bilgileri repoya commit etmeyin.
-	- `.env.example` kullanın.
+8. Security
+    - Do not commit API keys or secrets to the repository.
+    - Use `.env.example`.
 
-Teşekkürler!
+Thank you!
