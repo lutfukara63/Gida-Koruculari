@@ -1,13 +1,13 @@
-# Davranış Kuralları (Code of Conduct)
+# Code of Conduct
 
-Bu proje açık ve saygılı bir ortam sağlamayı hedefler. Katılımcıların tüm etkileşimlerinde saygılı olmaları beklenir.
+This project aims to provide an open and respectful environment. All participants are expected to be polite in every interaction.
 
-## Temel İlkeler
-- Kişisel saldırı veya aşağılayıcı dil yok.
-- Irk, cinsiyet, din, cinsel yönelim, engellilik vb. ayrımcılık yok.
-- Yapıcı eleştiri teşvik edilir; kırıcı olmaktan kaçının.
+## Core Principles
+- No personal attacks or degrading language.
+- No discrimination based on race, gender, religion, sexual orientation, disability, etc.
+- Constructive criticism is encouraged; avoid being destructive.
 
-## İhlal bildirimi
-Proje yöneticilerine veya takım liderine özel mesajla bildirin. Bildirimler gizli tutulur.
+## Reporting Violations
+Report privately to the project managers or team lead. Reports are kept confidential.
 
-Bu kuralların detayları ve yaptırımlar proje sahipleri tarafından yönetilir.
+Details and enforcement of these rules are managed by the project owners.
