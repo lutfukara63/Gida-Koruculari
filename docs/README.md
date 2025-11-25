@@ -1,3 +1,3 @@
-# Dokümantasyon
+# Documentation
 
-Proje dokümantasyonu bu klasörde tutulacaktır.
+Project documentation will be kept in this folder.
