@@ -1,145 +1,85 @@
-# Gıda İçerik Analizi - Ekip Projesi
+# Food Content Analysis - Team Project
 
-Bu repo, ambalaj üzerindeki içerik/yazıları OCR ile okuyup, içerik listesini ayrıştırarak ve gerekirse AI ile yardım alarak kullanıcılara sunan bir ekip projesidir. Proje ekip çalışması için yapılandırılmıştır: PR kuralları, issue/etiket şablonları ve CI örneği içerir.
+This repository is a team project that reads the content/texts on packaging using OCR, parses the list of contents, and, if necessary, utilizes AI assistance to present this data to users. The project is managed collaboratively.
 
-Önemli not: Bu repo birden fazla geliştirici tarafından yönetilir. Lütfen `CONTRIBUTING.md` ve `CODE_OF_CONDUCT.md` kurallarını okuyun.
+> Important note: This repository is maintained by multiple developers. Please read the `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` rules.
 
-## Hızlı Başlangıç
-1. Sanal ortam oluşturun:
+## Quick Start
 
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # Windows: .venv\Scripts\activate
-   ```
+1. Create a virtual environment:
 
-2. Bağımlılıkları yükleyin:
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate  # Windows: .venv\Scripts\activate
+    ```
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install dependencies:
 
-3. Backend çalıştırma (development):
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-   ```bash
-   uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
-   ```
+3. Run the backend (development):
 
-## Geliştirme (Development)
-1. Geliştirme bağımlılıklarını yükleyin:
+    ```bash
+    uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
+    ```
 
-```bash
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-pip install -r requirements-dev.txt
-pip install -r backend/requirements.txt
-```
+## Development
 
-2. Pre-commit kurun (ilk defa):
+1. Install development dependencies:
 
-```bash
-pre-commit install
-```
+    ```bash
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    pip install -r requirements-dev.txt
+    pip install -r backend/requirements.txt
+    ```
 
-3. Kod formatlama/lint kontrollerini yerel çalıştırmak için:
+2. Set up pre-commit (first time):
 
-```bash
-black .
-isort -rc .
-flake8
-```
+    ```bash
+    pre-commit install
+    ```
 
-4. Backend çalıştırma:
+3. To locally run code formatting/lint checks:
 
-```bash
-uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
-```
+    ```bash
+    black .
+    isort -rc .
+    flake8
+    ```
 
-## Branch & PR Politikası
-- `main`: üretim hazır (korumalı)
-- `develop`: geliştirme entegrasyonu
-- `feature/*`: yeni özellik dalları
-- `fix/*`: hata düzeltme dalları
-- `release/*`: sürüm hazırlıkları
+4. Run backend:
 
-## Pull Request checklist (özet)
-- İlgili issue bağlandı
-- Kod stiline (Black, isort) uydu
-- Unit test eklendi/güncellendi
-- CI ye geçti
+    ```bash
+    uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
+    ```
 
-## Roller ve sahiblik
-- `CODEOWNERS` dosyasında takım kod sahipleri belirtilir.
-- Görevler issue'lara atanır; büyük değişiklikler için tasarım/DB şeması PR'ı açılmadan önce tartışılmalı.
+## Branch & PR Policy
+- `main`: production-ready (protected)
+- `develop`: development integration
+- `feature/*`: new feature branches
+- `fix/*`: bugfix branches
+- `release/*`: release preparations
 
-## İletişim & Toplantılar
-- Günlük veya haftalık senkronizasyon (takım kararı)
-- Büyük veri/toplantı notları `docs/` altında saklanmalı
+## Pull Request checklist (summary)
+- Related issue is linked
+- Code style (Black, isort) compliance
+- Unit test added/updated
+- Passed CI
 
-## Veri, modeller ve güvenlik
-- Ham veri `dataset/` altında tutulur fakat hassas/kişisel veri repoya pushlanmaz.
-- Model checkpointleri büyükse harici storage (S3, GDrive, DVC remote) kullanılmalı.
-- `.env` dosyaları repoya eklenmez; `.env.example` eklenir.
+## Roles and Ownership
+- Team code owners are specified in the `CODEOWNERS` file.
+- Tasks are assigned in issues; major changes should be discussed before opening a design/DB schema PR.
 
-Daha fazla bilgi: `CONTRIBUTING.md`, `.github/` klasörü ve `docs/` içeriğine bakın.
-# Gıda İçerik Analizi - Ekip Projesi
-Bu repo, ambalaj üzerindeki içerik/yazıları OCR ile okuyup, içerik listesini ayrıştırarak ve gerekirse AI ile yardım alarak kullanıcılara sunan bir ekip projesidir. Proje ekip çalışması için yapılandırılmıştır: PR kuralları, issue/etiket şablonları ve CI örneği içerir.
+## Communication & Meetings
+- Daily or weekly sync meetings (per team decision)
+- Major data/meeting notes should be stored under `docs/`
 
-Önemli not: Bu repo birden fazla geliştirici tarafından yönetilir. Lütfen `CONTRIBUTING.md` ve `CODE_OF_CONDUCT.md` kurallarını okuyun.
+## Data, Models, and Security
+- Raw data is kept under `dataset/`, but sensitive/personal data should NOT be pushed to the repository.
+- If model checkpoints are large, use external storage (S3, GDrive, DVC remote).
+- `.env` files are not added to the repo; `.env.example` is included.
 
-## Hızlı Başlangıç
-1. Sanal ortam oluşturun:
-
-	```bash
-	# Gıda İçerik Analizi - Ekip Projesi
-
-	Bu repo, ambalaj üzerindeki içerik/yazıları OCR ile okuyup, içerik listesini ayrıştırarak ve gerekirse AI ile yardım alarak kullanıcılara sunan bir ekip projesidir. Proje ekip çalışması için yapılandırılmıştır: PR kuralları, issue/etiket şablonları ve CI örneği içerir.
-
-	Önemli not: Bu repo birden fazla geliştirici tarafından yönetilir. Lütfen `CONTRIBUTING.md` ve `CODE_OF_CONDUCT.md` kurallarını okuyun.
-
-	## Hızlı Başlangıç
-	1. Sanal ortam oluşturun:
-
-	   ```bash
-	   python -m venv .venv
-	   source .venv/bin/activate  # Windows: .venv\Scripts\activate
-	   ```
-
-	2. Bağımlılıkları yükleyin:
-
-	   ```bash
-	   pip install -r requirements.txt
-	   ```
-
-	3. Backend çalıştırma (development):
-
-	   ```bash
-	   uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
-	   ```
-
-	## Branch & PR Politikası
-	- `main`: üretim hazır (korumalı)
-	- `develop`: geliştirme entegrasyonu
-	- `feature/*`: yeni özellik dalları
-	- `fix/*`: hata düzeltme dalları
-	- `release/*`: sürüm hazırlıkları
-
-	## Pull Request checklist (özet)
-	- İlgili issue bağlandı
-	- Kod stiline (Black, isort) uydu
-	- Unit test eklendi/güncellendi
-	- CI ye geçti
-
-	## Roller ve sahiblik
-	- `CODEOWNERS` dosyasında takım kod sahipleri belirtilir.
-	- Görevler issue'lara atanır; büyük değişiklikler için tasarım/DB şeması PR'ı açılmadan önce tartışılmalı.
-
-	## İletişim & Toplantılar
-	- Günlük veya haftalık senkronizasyon (takım kararı)
-	- Büyük veri/toplantı notları `docs/` altında saklanmalı
-
-	## Veri, modeller ve güvenlik
-	- Ham veri `dataset/` altında tutulur fakat hassas/kişisel veri repoya pushlanmaz.
-	- Model checkpointleri büyükse harici storage (S3, GDrive, DVC remote) kullanılmalı.
-	- `.env` dosyaları repoya eklenmez; `.env.example` eklenir.
-
-	Daha fazla bilgi: `CONTRIBUTING.md`, `.github/` klasörü ve `docs/` içeriğine bakın.
+For more information, see the `CONTRIBUTING.md`, `.github/` folder, and the `docs/` directory.
