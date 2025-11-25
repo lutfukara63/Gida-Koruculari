@@ -1,3 +1,3 @@
 # Mobile
 
-Mobil uygulama kaynakları bu klasöre eklenecektir.
+Mobile application resources will be added to this folder.
