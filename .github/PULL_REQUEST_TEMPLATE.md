@@ -1,17 +1,21 @@
-### Değişiklik Özeti
-Kısa özet:
+Change Summary
 
-### İlgili Issue
-- Fixes #<issue-num> veya Related to #<issue-num>
+Brief summary:
+Related Issue
 
-### Yapılanlar
-- [ ] Birim test eklendi/güncellendi
-- [ ] Kod formatlandı (black/isort)
-- [ ] Dokümantasyon güncellendi (README/docs)
+    Fixes # or Related to #
 
-### Test Adımları
-1. ...
-2. ...
+Changes Made
 
-### Reviewer Notları
-Özellikle dikkat edilmesi gereken noktalar.
+    Unit test added/updated
+    Code formatted (black/isort)
+    Documentation updated (README/docs)
+
+Test Steps
+
+    ...
+    ...
+
+Reviewer Notes
+
+Points to pay special attention to.
