@@ -1,12 +1,3 @@
-# Gıda Korucuları — OCR & Expo App
-
-Bir eğitim projesi olarak hazırlanan "Gıda Korucuları" uygulaması — OCR ile metin tanıma, fotoğraf çekme ve basit kullanıcı akışı içeren Expo + React Native app.
-
-Projenin amacı: ders notu değerlendirmesi için profesyonel, çalışır ve iyi dokümante edilmiş bir uygulama sunmak.
-
-Önemli: Bu repo sahibi (lutfukara63) tarafından tüm izinler verildi. Bu commit, proje sunumu ve değerlendirme için gerekli dokümantasyonu ve temel yapılandırmaları ekler.
-
-Hızlı başlangıç
 
 Önkoşullar
 - Node.js (LTS önerilir)
@@ -33,13 +24,12 @@ Proje yapısı
 - tsconfig.json — TypeScript yapılandırması
 - README.md — proje özeti ve talimatlar
 
-Değerlendirme kontrol listesi (Hocaya yönelik)
+Değerlendirme kontrol listesi 
 - Uygulama problemsiz çalışıyor ve istenen akış tamamlanıyor. (Çalıştırma talimatları yukarıda)
 - Kod okunabilir, typescript kullanımı ve tip kontrolleri mevcut.
 - Kullanıcı arayüzü temel seviyede düzenli ve kullanıcı dostu.
 - Proje dokümantasyonu; README, CONTRIBUTING, LICENSE, CHANGELOG eklendi.
 
-Not almak için önerilen gösterimler
 - Canlı demo (telefon ekran paylaşımı veya emülatör ile) — uygulamanın OCR ve fotoğraf alma işlevselliğini gösterin.
 - Kod üzerinden kısa walkthrough — özellikle OCR entegrasyonu, kamera izinleri ve dosya sistemi kullanımı.
 
