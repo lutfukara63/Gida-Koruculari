@@ -1,50 +1,37 @@
-# Welcome to your Expo app 👋
+# Gida Koruculari (Food Rangers)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Reading the long, complex, and sometimes obscure ingredient lists on the back of packaged foods while grocery shopping can be exhausting for all of us. I developed this mobile app with the thought that "knowing what we eat is our most fundamental right."
 
-## Get started
+The app basically uses your phone's camera to scan the ingredients section on food packaging. Then, it analyzes this text in the background using the Gemini API, presenting you with an understandable health score and warning badges for risky substances (allergens, harmful chemicals, preservatives, etc.).
 
-1. Install dependencies
+For those who want to test the app directly on their own phone without dealing with the code, I have also added the APK file to the repo. You can download and install it right away.
 
-   ```bash
-   npm install
-   ```
+What Can It Do?
+- Fast and instant ingredient scanning from packaging using the camera
+- Content analysis in seconds with Gemini integration
+- Visual scoring system based on the food's health status (Health Score Gauge)
+- Risk badges for harmful components or ingredients that need attention
 
-2. Start the app
+Technologies Used
+To ensure performance and code readability while developing the project, I set up the following structure:
+- React Native & Expo (Mobile interface and camera integration)
+- TypeScript
+- Google Gemini API (Text analysis and risk detection)
 
-   ```bash
-   npx expo start
-   ```
+How to Run the Project on Your Computer
+If you want to review the codes or get involved in the development, the steps are very simple:
 
-In the output, you'll find options to open the app in a
+1. Clone the repo to your computer:
+git clone https://github.com/lutfukara63/Gida-Koruculari.git
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+2. Enter the project directory and install packages:
+cd Gida-Koruculari
+npm install
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+3. Start the development server:
+npx expo start
 
-## Get a fresh project
+(A quick note: You need to add your own Gemini API key into the code for the app's analysis part to work properly.)
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Contributing
+My goal is to use technology to create works that benefit society and touch people's lives. You can review the codes and fix any missing parts you see, open an Issue if you have new feature ideas, or send a PR directly. I am open to all kinds of contributions and feedback.
